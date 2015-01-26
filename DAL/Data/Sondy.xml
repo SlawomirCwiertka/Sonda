@@ -74,32 +74,6 @@
     </Answers>
   </Probe>
   <Probe>
-    <PublicationDate>2015-01-26</PublicationDate>
-    <Question>Najlepszy gigant?</Question>
-    <Answers>
-      <Answer>
-        <Text>Microsoft</Text>
-        <Value>0</Value>
-      </Answer>
-      <Answer>
-        <Text>Google</Text>
-        <Value>0</Value>
-      </Answer>
-      <Answer>
-        <Text>Mac</Text>
-        <Value>0</Value>
-      </Answer>
-      <Answer>
-        <Text>IBM</Text>
-        <Value>0</Value>
-      </Answer>
-      <Answer>
-        <Text>Motorolla</Text>
-        <Value>0</Value>
-      </Answer>
-    </Answers>
-  </Probe>
-  <Probe>
     <PublicationDate>2015-01-28</PublicationDate>
     <Question>Najlepsza technologia Microsoftu?</Question>
     <Answers>
@@ -140,6 +114,32 @@
       <Answer>
         <Text>Dead Island</Text>
         <Value>14</Value>
+      </Answer>
+    </Answers>
+  </Probe>
+  <Probe>
+    <PublicationDate>2015-01-26</PublicationDate>
+    <Question>Najlepszy gigant?</Question>
+    <Answers>
+      <Answer>
+        <Text>Microsoft</Text>
+        <Value>1</Value>
+      </Answer>
+      <Answer>
+        <Text>Google</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>Mac</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>IBM</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>Motorolla</Text>
+        <Value>0</Value>
       </Answer>
     </Answers>
   </Probe>
