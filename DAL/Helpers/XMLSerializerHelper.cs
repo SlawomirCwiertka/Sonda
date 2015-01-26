@@ -11,7 +11,7 @@ namespace Probea.Helpers
 {
     public static class XMLSerializerHelper
     {
-        public static string PathData = @"C:\Users\Slawomir\Documents\Visual Studio 2013\Projects\Sonda\ClassLibrary1\Data\Sondy.xml";
+        public static string PathData = @"C:\Users\Slawomir\Documents\Visual Studio 2013\Projects\Sonda\DAL\Data\Sondy.xml";
         static public void SerializeProbeToXML(List<Probe> probes)
         {
             
