@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProbe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Probe>
+    <Question>Najlepsza technologia Microsoftu?</Question>
+    <Answers>
+      <Answer>
+        <Text>Aps.Net MVC</Text>
+        <Value>2</Value>
+      </Answer>
+      <Answer>
+        <Text>WinJS</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>WPF</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>WinForms</Text>
+        <Value>0</Value>
+      </Answer>
+    </Answers>
+  </Probe>
+  <Probe>
+    <PublicationDate>2015-01-22</PublicationDate>
+    <Question>Jakie jedzenie jest najlepsze?</Question>
+    <Answers>
+      <Answer>
+        <Text>Kotlety</Text>
+        <Value>1</Value>
+      </Answer>
+      <Answer>
+        <Text>kluski</Text>
+        <Value>1</Value>
+      </Answer>
+      <Answer>
+        <Text>Zupa</Text>
+        <Value>0</Value>
+      </Answer>
+    </Answers>
+  </Probe>
+  <Probe>
+    <PublicationDate>2015-01-23</PublicationDate>
+    <Question>Jak mnie ocenisz?</Question>
+    <Answers>
+      <Answer>
+        <Text>1</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>2</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>3</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>4</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>5</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>6</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>Bóg</Text>
+        <Value>0</Value>
+      </Answer>
+    </Answers>
+  </Probe>
+  <Probe>
+    <PublicationDate>2015-01-24</PublicationDate>
+    <Question>Najlepszy gigant?</Question>
+    <Answers>
+      <Answer>
+        <Text>Microsoft</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>Google</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>Mac</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>IBM</Text>
+        <Value>0</Value>
+      </Answer>
+      <Answer>
+        <Text>Motorolla</Text>
+        <Value>0</Value>
+      </Answer>
+    </Answers>
+  </Probe>
+  <Probe>
+    <PublicationDate>2015-01-20</PublicationDate>
+    <Question>Najlepsza technologia Microsoftu?</Question>
+    <Answers>
+      <Answer>
+        <Text>Aps.Net MVC</Text>
+        <Value>6</Value>
+      </Answer>
+      <Answer>
+        <Text>WinJS</Text>
+        <Value>8</Value>
+      </Answer>
+      <Answer>
+        <Text>WPF</Text>
+        <Value>12</Value>
+      </Answer>
+      <Answer>
+        <Text>WinForms</Text>
+        <Value>18</Value>
+      </Answer>
+    </Answers>
+  </Probe>
+  <Probe>
+    <PublicationDate>2015-01-21</PublicationDate>
+    <Question>Najlepsza gra roku to?</Question>
+    <Answers>
+      <Answer>
+        <Text>Wiedzmin 3</Text>
+        <Value>5</Value>
+      </Answer>
+      <Answer>
+        <Text>GTA 5</Text>
+        <Value>3</Value>
+      </Answer>
+      <Answer>
+        <Text>CS:GO</Text>
+        <Value>6</Value>
+      </Answer>
+      <Answer>
+        <Text>Dead Island</Text>
+        <Value>14</Value>
+      </Answer>
+    </Answers>
+  </Probe>
+</ArrayOfProbe>

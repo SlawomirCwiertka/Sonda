@@ -1,0 +1,46 @@
+﻿@model Probea.ViewModels.ProbeViewModel
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-2.1.3.min.js"></script>
+<div class="container">
+    @using (Ajax.BeginForm("AjaxPost", "Home", new AjaxOptions { UpdateTargetId = "content", OnSuccess = "get()" }, new { @id = "formShare" }))
+    {
+        @Html.DisplayFor(m => m.Question)
+        @Html.HiddenFor(m => m.Question)
+        @Html.HiddenFor(m => m.PublicationDate)
+        for (int i = 0; i < Model.Answers.Count; i++)
+        {
+            <div class="row center-block">
+                <div class="col-sm-5">
+                    @Html.DisplayFor(m => Model.Answers[i].Text, new { @class = "col-sm-5 label-default" })
+                    @if (!Model.IsChecked)
+                    {
+                        <div class="col-sm-2">@Html.CheckBoxFor(m => Model.Answers[i].IsChecked, new { @class = "checkbox" })</div>
+                    }
+                    <div class="progress progress-striped col-sm-5 pull-right">
+                        <div class="progress-bar progress-bar-success" style="width:@Model.Answers[i].ValueProgress%">@Model.Answers[i].ValueProgress %</div>
+                    </div>
+                </div>
+            </div>
+            @Html.HiddenFor(m => Model.Answers[i].Text)
+            @Html.HiddenFor(m => Model.Answers[i].Value)
+        }
+        if (!Model.IsChecked)
+        {
+            <button id="save" class="btn-default">Prześlij</button>
+        }
+    }
+</div>
+<script>
+    $("#save").click(function (e) {
+        e.preventDefault();
+        var form = $("#formShare");
+        $.ajax({
+            url: 'AjaxPost',
+            data: form.serialize(),
+            type: 'POST',
+            success: function () { get() }
+        });
+    });
+</script>

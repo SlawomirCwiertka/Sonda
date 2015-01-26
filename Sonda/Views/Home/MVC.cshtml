@@ -1,0 +1,35 @@
+﻿@model Probea.ViewModels.ProbeViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Zwykły Post i Get</h2>
+<div class="container">
+    @using (Html.BeginForm("MVC", "Home"))
+    {
+        @Html.DisplayFor(m => m.Question)
+        @Html.HiddenFor(m => m.Question)
+        @Html.HiddenFor(m => m.PublicationDate)
+        for (int i = 0; i < Model.Answers.Count; i++)
+        {
+            <div class="row center-block">
+                <div class="col-sm-5">
+                @Html.DisplayFor(m => Model.Answers[i].Text, new { @class = "col-sm-5 label-default" }) 
+                @if (!Model.IsChecked)
+                {
+                    <div class="col-sm-2">@Html.CheckBoxFor(m => Model.Answers[i].IsChecked, new { @class = "checkbox" })</div>
+                }
+                <div class="progress progress-striped col-sm-5 pull-right">
+                    <div class="progress-bar progress-bar-success" style="width:@Model.Answers[i].ValueProgress%">@Model.Answers[i].ValueProgress %</div>
+                </div>
+                </div>
+            </div>
+            @Html.HiddenFor(m => Model.Answers[i].Text)
+            @Html.HiddenFor(m => Model.Answers[i].Value)
+        }
+        if (!Model.IsChecked)
+        {
+            <input type="submit" />
+        }
+    }
+</div>
